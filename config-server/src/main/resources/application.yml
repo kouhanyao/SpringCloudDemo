@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kouhanyao/SpringCloudConfigTest.git #当模式匹配不成功时,调用该路径
+          repos:
+            Teacher:
+              pattern: user/dev #对应用程序进行模式匹配
+              uri: https://github.com/forezp/SpringcloudConfig.git
+              searchPaths: respo
