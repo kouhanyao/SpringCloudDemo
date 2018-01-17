@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
+ * http://localhost:1001/
  * 创建“服务注册中心”
  *
  *  启动一个服务注册中心，只需要一个注解@EnableEurekaServer，提供给其他应用进行对话
