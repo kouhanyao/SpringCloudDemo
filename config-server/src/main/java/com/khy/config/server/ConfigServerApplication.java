@@ -16,6 +16,9 @@ import org.springframework.context.annotation.Profile;
  *
  * Vault是安全访问秘密的工具。一个秘密是你想要严格控制访问的任何东西，如API密钥，密码，证书等等。
  * Vault为任何秘密提供统一的界面，同时提供严格的访问控制和记录详细的审核日志。
+ *
+ *
+ * 认证授权Spring Security OAuth2
  */
 @SpringBootApplication
 @EnableConfigServer
